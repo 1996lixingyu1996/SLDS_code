@@ -1,0 +1,39 @@
+Package: MLearner
+Title: M Learner
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Xingyu", "Li", , "lxingyu1996@gmail.com", role = c("aut", "cre"))
+  )
+Description: R package for M survival learner
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+Imports: 
+    dplyr,
+    ggplot2,
+    rpart,
+    rpart.plot,
+    survival,
+    xgboost,
+    patchwork,
+    coda,
+    viridis,
+    BART,
+    survminer,
+    Rtsne
+Depends: 
+    R (>= 3.5),
+    survival,
+    Rtsne,
+    survminer,
+    xgboost,
+    rpart,
+    rpart.plot
+LazyData: true
