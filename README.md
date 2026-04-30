@@ -2,6 +2,8 @@
 
 This repository provides the R code for the **M-survival Learner** method.
 
+Full paper link: https://arxiv.org/abs/2603.13464
+
 ## Requirements
 
 Please ensure that the `xgboost` package version **1.7.9.1** is installed before running the code.  
